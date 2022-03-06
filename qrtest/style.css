@@ -1,0 +1,45 @@
+body {
+    color: #3c2664;
+    font-family: arial, sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 40pt;
+}
+
+.crowded {
+    text-align: center;
+    font-size: 30pt;
+}
+
+.stamp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    font-size: xx-large;
+}
+
+.stamp div {
+    align-items: center;
+    border: solid 1px #004c8c;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin: 4px;
+    width: 200px;
+}
+
+.status {
+    text-align: center;
+    font-size: 20pt;
+}
+
